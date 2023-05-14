@@ -13,4 +13,4 @@ sf::Texture Texture::loadTexture(const char *name) {
 
 sf::Texture Texture::o = Texture::loadTexture("/Users/mba/myCode/tic-tac-toe/Texture/images.png");
 sf::Texture Texture::x = Texture::loadTexture("/Users/mba/myCode/tic-tac-toe/Texture/36-368091_heart-simple-shape-silhouette-tic-tac-toe-cross.png");
-sf::Texture Texture::board = Texture::loadTexture("/Users/mba/myCode/tic-tac-toe/Texture/21-211930_grid-clipart-blank-tic-tac-toe-board-clipart.png");
+sf::Texture Texture::board = Texture::loadTexture("/Users/mba/myCode/tic-tac-toe/Texture/Tic-tac-toe.png");

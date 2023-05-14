@@ -1,8 +1,10 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include "Game.h"
 
 int main()
 {
+    Game game = Game();
     sf::RenderWindow window(sf::VideoMode(1000, 1200), "chess", sf::Style::Close);
     window.setVerticalSyncEnabled(true);
 
@@ -26,7 +28,7 @@ int main()
             }
         }
 
-//        window.draw(chessGame);
+        window.draw(game);
         window.display();
     }
 
