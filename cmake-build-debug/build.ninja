@@ -70,6 +70,13 @@ build CMakeFiles/tic_tac_toe.dir/Board.cpp.o: CXX_COMPILER__tic_tac_toe_Debug /U
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
   OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
 
+build CMakeFiles/tic_tac_toe.dir/Game.cpp.o: CXX_COMPILER__tic_tac_toe_Debug /Users/mba/myCode/tic-tac-toe/Game.cpp || cmake_object_order_depends_target_tic_tac_toe
+  DEP_FILE = CMakeFiles/tic_tac_toe.dir/Game.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
+  OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target tic_tac_toe
@@ -78,7 +85,7 @@ build CMakeFiles/tic_tac_toe.dir/Board.cpp.o: CXX_COMPILER__tic_tac_toe_Debug /U
 #############################################
 # Link the executable tic_tac_toe
 
-build tic_tac_toe: CXX_EXECUTABLE_LINKER__tic_tac_toe_Debug CMakeFiles/tic_tac_toe.dir/main.cpp.o CMakeFiles/tic_tac_toe.dir/Texture.cpp.o CMakeFiles/tic_tac_toe.dir/Board.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+build tic_tac_toe: CXX_EXECUTABLE_LINKER__tic_tac_toe_Debug CMakeFiles/tic_tac_toe.dir/main.cpp.o CMakeFiles/tic_tac_toe.dir/Texture.cpp.o CMakeFiles/tic_tac_toe.dir/Board.cpp.o CMakeFiles/tic_tac_toe.dir/Game.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-network.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-audio.2.5.1.dylib  /opt/homebrew/lib/libsfml-network.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
