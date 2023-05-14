@@ -5,7 +5,7 @@
 int main()
 {
     Game game = Game();
-    sf::RenderWindow window(sf::VideoMode(1000, 1200), "chess", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(1200, 1200), "chess", sf::Style::Close);
     window.setVerticalSyncEnabled(true);
 
 
