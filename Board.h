@@ -5,9 +5,17 @@
 #ifndef TIC_TAC_TOE_BOARD_H
 #define TIC_TAC_TOE_BOARD_H
 
+#include "Texture.h"
 
-class Board {
+class Board : public sf::Drawable {
+public:
+    Board();
 
+protected:
+    void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
+
+private:
+    sf::Sprite sprite;
 };
 
 

@@ -1,6 +1,7 @@
 # ninja log v5
 6	312	1683950672137512747	CMakeFiles/tic_tac_toe.dir/main.cpp.o	29093ca214abb80b
 6	484	1683951162066687831	CMakeFiles/tic_tac_toe.dir/Texture.cpp.o	817ec3b81041a775
-0	100	1684038556476293462	build.ninja	aa32b3a8f90adf3f
-484	539	1683951162124158490	tic_tac_toe	5a93b0a7d981bd7a
+0	100	1684043050569385469	build.ninja	aa32b3a8f90adf3f
+520	644	1684043025524691356	tic_tac_toe	bc1fc1213da1ba09
 0	4	0	clean	3c8e6cc385ee00ba
+6	520	1684043025397973480	CMakeFiles/tic_tac_toe.dir/Board.cpp.o	4227fda55f33caed
