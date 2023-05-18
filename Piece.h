@@ -11,9 +11,13 @@ class Piece : public sf::Drawable{
 public:
     Piece();
     Piece(bool shape); // O : 0, X : 1
+    void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
 
 protected:
     sf::Sprite sprite;
+
+private:
+    bool display = 1;
 };
 
 

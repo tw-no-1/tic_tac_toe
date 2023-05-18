@@ -7,12 +7,16 @@
 
 #include <SFML/Graphics.hpp>
 #include "Board.h"
+#include "Piece.h"
 
 class Game : public sf::Drawable{
 public:
     Game();
     Board board = Board();
     void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
+
+private:
+    Piece pieces[18];
 };
 
 

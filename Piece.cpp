@@ -17,5 +17,11 @@ Piece::Piece(bool shape) {
     }
 
     sprite.setOrigin(sf::Vector2f(float(sprite.getTexture()->getSize().x / 2), float(sprite.getTexture()->getSize().y / 2)));
-    sprite.setScale(sf::Vector2f(1.25f, 1.2f));
+    sprite.setScale(sf::Vector2f(0.2f, 0.2f));
+}
+
+void Piece::draw(sf::RenderTarget &target, sf::RenderStates states) const {
+    if(display) {
+        target.draw(sprite);
+    }
 }
