@@ -19,6 +19,8 @@ public:
 
 private:
     Piece pieces[9];
+    sf::RectangleShape square[3];
+    bool notGameOver = 1;
     char bitBoard[9] = {'0', '0', '0', '0', '0', '0', '0', '0', '0'};
     bool turn = 0;
     short int n = 0;
