@@ -18,7 +18,7 @@ public:
 
 private:
     Piece pieces[9];
-    bool bitBoard[9] = {1, 1, 1, 1, 1, 1, 1, 1, 1};
+    char bitBoard[9] = {'0', '0', '0', '0', '0', '0', '0', '0', '0'};
     bool turn = 0;
     short int n = 0;
 };

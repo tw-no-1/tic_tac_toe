@@ -9,12 +9,21 @@ Game::Game() {
 }
 
 void Game::newPiece(int row, int col) {
-    if(bitBoard[row*3 + col]) {
+    if(bitBoard[row*3 + col] == '0') {
         pieces[n] = Piece(turn);
         pieces[n].setPosition(row, col);
         n++;
         turn = !turn;
-        bitBoard[row*3 + col] = 0;
+        bitBoard[row*3 + col] = n%2 ? 'O' : 'X';
+    }
+
+    if(n == 9) {
+        for(int i = 0; i < n; i++) {
+            std::cout << bitBoard[i] << "   ";
+            if((i+1) % 3 == 0) {
+                std::cout << std::endl;
+            }
+        }
     }
 }
 
