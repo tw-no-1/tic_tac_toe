@@ -13,10 +13,14 @@ class Game : public sf::Drawable{
 public:
     Game();
     Board board = Board();
+    void newPiece(int row, int col);
     void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
 
 private:
-    Piece pieces[18];
+    Piece pieces[9];
+    bool bitBoard[9] = {1, 1, 1, 1, 1, 1, 1, 1, 1};
+    bool turn = 0;
+    short int n = 0;
 };
 
 

@@ -8,6 +8,8 @@
 #include "Texture.h"
 
 class Piece : public sf::Drawable{
+    friend class Game;
+
 public:
     Piece();
     Piece(bool shape); // O : 0, X : 1
@@ -15,6 +17,7 @@ public:
 
 protected:
     sf::Sprite sprite;
+    void setPosition(int row, int col);
 
 private:
     bool display = 1;

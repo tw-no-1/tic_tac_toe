@@ -11,17 +11,23 @@ Piece::Piece(bool shape) {
 
     if(shape) {
         sprite.setTexture(Texture::x);
+        sprite.setOrigin(sf::Vector2f(float(sprite.getTexture()->getSize().x / 2), float(sprite.getTexture()->getSize().y / 2)));
+        sprite.setScale(sf::Vector2f(0.1f, 0.1f));
     }
     else {
         sprite.setTexture(Texture::o);
+        sprite.setOrigin(sf::Vector2f(float(sprite.getTexture()->getSize().x / 2), float(sprite.getTexture()->getSize().y / 2)));
+        sprite.setScale(sf::Vector2f(0.2f, 0.2f));
     }
 
-    sprite.setOrigin(sf::Vector2f(float(sprite.getTexture()->getSize().x / 2), float(sprite.getTexture()->getSize().y / 2)));
-    sprite.setScale(sf::Vector2f(0.2f, 0.2f));
 }
 
 void Piece::draw(sf::RenderTarget &target, sf::RenderStates states) const {
     if(display) {
         target.draw(sprite);
     }
+}
+
+void Piece::setPosition(int row, int col) {
+    sprite.setPosition(col*400 + 200, row*400 + 200);
 }

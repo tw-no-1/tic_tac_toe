@@ -19,8 +19,9 @@ int main()
 
             if (event.type == sf::Event::MouseButtonPressed) {
                 if (event.mouseButton.button == sf::Mouse::Left) {
-                    if ((0 < event.mouseButton.x) && (event.mouseButton.x < 1500) && (0 < event.mouseButton.y) &&
-                        (event.mouseButton.y < 1500)) {
+                    if ((0 < event.mouseButton.x) && (event.mouseButton.x < 1200) && (0 < event.mouseButton.y) &&
+                        (event.mouseButton.y < 1200)) {
+                        game.newPiece(event.mouseButton.y/400, event.mouseButton.x/400);
                     } else if ((1500 < event.mouseButton.x) && (event.mouseButton.x < 2000) &&
                                (0 < event.mouseButton.y) && (event.mouseButton.y < 50)) {
                     }
