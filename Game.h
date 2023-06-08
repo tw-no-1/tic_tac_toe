@@ -15,6 +15,7 @@ public:
     Board board = Board();
     void newPiece(int row, int col);
     void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
+    void win();
 
 private:
     Piece pieces[9];
