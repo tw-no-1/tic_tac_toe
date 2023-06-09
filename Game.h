@@ -16,6 +16,7 @@ public:
     void newPiece(int row, int col);
     void draw(sf::RenderTarget &target, sf::RenderStates states) const override;
     void win();
+    void restart();
 
 private:
     Piece pieces[9];

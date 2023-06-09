@@ -3,6 +3,7 @@
 //
 
 #include "Game.h"
+#include <iostream>
 
 Game::Game() {
 }
@@ -150,4 +151,8 @@ void Game::win() {
 
         notGameOver = 0;
     }
+}
+
+void Game::restart() {
+    std::cout << "test" << std::endl;
 }
