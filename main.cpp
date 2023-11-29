@@ -7,6 +7,7 @@ int main()
     Game game = Game();
     sf::RenderWindow window(sf::VideoMode(600, 600), "tic tac toe", sf::Style::Close);
     window.setVerticalSyncEnabled(true);
+    //test
 
     while (window.isOpen()) {
         sf::Event event = sf::Event();
