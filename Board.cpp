@@ -9,7 +9,7 @@ Board::Board() {
     sf::Texture texture;
 
     sprite.setTexture(Texture::board);
-    sprite.setScale(sf::Vector2f(2, 2));
+    sprite.setScale(sf::Vector2f(1, 1));
 }
 
 void Board::draw(sf::RenderTarget &target, sf::RenderStates states) const {

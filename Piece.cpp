@@ -12,12 +12,12 @@ Piece::Piece(bool shape) {
     if(shape) {
         sprite.setTexture(Texture::x);
         sprite.setOrigin(sf::Vector2f(float(sprite.getTexture()->getSize().x / 2), float(sprite.getTexture()->getSize().y / 2)));
-        sprite.setScale(sf::Vector2f(0.1f, 0.1f));
+        sprite.setScale(sf::Vector2f(0.05f, 0.05f));
     }
     else {
         sprite.setTexture(Texture::o);
         sprite.setOrigin(sf::Vector2f(float(sprite.getTexture()->getSize().x / 2), float(sprite.getTexture()->getSize().y / 2)));
-        sprite.setScale(sf::Vector2f(0.2f, 0.2f));
+        sprite.setScale(sf::Vector2f(0.1f, 0.1f));
     }
 
 }
@@ -29,5 +29,5 @@ void Piece::draw(sf::RenderTarget &target, sf::RenderStates states) const {
 }
 
 void Piece::setPosition(int row, int col) {
-    sprite.setPosition(col*400 + 200, row*400 + 200);
+    sprite.setPosition(col*200 + 100, row*200 + 100);
 }

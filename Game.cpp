@@ -33,120 +33,120 @@ void Game::draw(sf::RenderTarget &target, sf::RenderStates states) const {
 void Game::win() {
     if(bitBoard[0] == bitBoard[1] && bitBoard[1] == bitBoard[2] && bitBoard[0] != '0') {
         square[0].setPosition(0, 0);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(400, 0);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(200, 0);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(800, 0);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(400, 0);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[3] == bitBoard[4] && bitBoard[4] == bitBoard[5] && bitBoard[3] != '0') {
-        square[0].setPosition(0, 400);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setPosition(0, 200);
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(400, 400);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(200, 200);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(800, 400);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(400, 200);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[6] == bitBoard[7] && bitBoard[7] == bitBoard[8] && bitBoard[6] != '0') {
-        square[0].setPosition(0, 800);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setPosition(0, 400);
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(400, 800);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(200, 400);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(800, 800);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(400, 400);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[0] == bitBoard[3] && bitBoard[3] == bitBoard[6] && bitBoard[0] != '0') {
         square[0].setPosition(0, 0);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(0, 400);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(0, 200);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(0, 800);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(0, 400);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[1] == bitBoard[4] && bitBoard[4] == bitBoard[7] && bitBoard[1] != '0') {
-        square[0].setPosition(400, 0);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setPosition(200, 0);
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(400, 400);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(200, 200);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(400, 800);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(200, 400);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[2] == bitBoard[5] && bitBoard[5] == bitBoard[8] && bitBoard[2] != '0') {
-        square[0].setPosition(800, 0);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setPosition(400, 0);
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(800, 400);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(400, 200);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(800, 800);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(400, 400);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[0] == bitBoard[4] && bitBoard[4] == bitBoard[8] && bitBoard[0] != '0') {
         square[0].setPosition(0, 0);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(400, 400);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(200, 200);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(800, 800);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(400, 400);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;
     }
     else if(bitBoard[2] == bitBoard[4] && bitBoard[4] == bitBoard[6] && bitBoard[2] != '0') {
-        square[0].setPosition(800, 0);
-        square[0].setSize(sf::Vector2f(400.0, 400.0));
+        square[0].setPosition(400, 0);
+        square[0].setSize(sf::Vector2f(200.0, 200.0));
         square[0].setFillColor(sf::Color::Green);
 
-        square[1].setPosition(400, 400);
-        square[1].setSize(sf::Vector2f(400.0, 400.0));
+        square[1].setPosition(200, 200);
+        square[1].setSize(sf::Vector2f(200.0, 200.0));
         square[1].setFillColor(sf::Color::Green);
 
-        square[2].setPosition(0, 800);
-        square[2].setSize(sf::Vector2f(400.0, 400.0));
+        square[2].setPosition(0, 400);
+        square[2].setSize(sf::Vector2f(200.0, 200.0));
         square[2].setFillColor(sf::Color::Green);
 
         notGameOver = 0;

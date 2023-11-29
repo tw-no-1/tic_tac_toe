@@ -3,7 +3,7 @@ project(tic_tac_toe)
 
 set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_FILES main.cpp Texture.cpp Texture.h Board.cpp Board.h Game.cpp Game.h Piece.cpp Piece.h)
-include_directories(/usr/local/include)
+include_directories(${SFML_INCLUDE_DIRS})
 add_executable(tic_tac_toe ${SOURCE_FILES})
 find_package(SFML 2.5 COMPONENTS system window graphics audio network REQUIRED)
 include_directories(${SFML_INCLUDE_DIRS})

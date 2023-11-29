@@ -5,7 +5,7 @@
 int main()
 {
     Game game = Game();
-    sf::RenderWindow window(sf::VideoMode(1200, 1250), "tic tac toe", sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(600, 600), "tic tac toe", sf::Style::Close);
     window.setVerticalSyncEnabled(true);
 
 
@@ -19,11 +19,9 @@ int main()
 
             if (event.type == sf::Event::MouseButtonPressed) {
                 if (event.mouseButton.button == sf::Mouse::Left) {
-                    if ((0 < event.mouseButton.x) && (event.mouseButton.x < 1200) && (0 < event.mouseButton.y) &&
-                        (event.mouseButton.y < 1200)) {
-                        game.newPiece(event.mouseButton.y/400, event.mouseButton.x/400);
-                    } else if ((1500 < event.mouseButton.x) && (event.mouseButton.x < 2000) &&
-                               (0 < event.mouseButton.y) && (event.mouseButton.y < 50)) {
+                    if ((0 < event.mouseButton.x) && (event.mouseButton.x < 600) && (0 < event.mouseButton.y) &&
+                        (event.mouseButton.y < 600)) {
+                        game.newPiece(event.mouseButton.y/200, event.mouseButton.x/200);
                     }
                 }
             }
