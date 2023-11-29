@@ -1,9 +1,16 @@
 # ninja log v5
-2	515	1701258995607182345	CMakeFiles/tic_tac_toe.dir/Piece.cpp.o	a9901abea222b332
-2	515	1701258995607121931	CMakeFiles/tic_tac_toe.dir/Board.cpp.o	e76b228621c95f4
-0	4	0	clean	3c8e6cc385ee00ba
-283	314	1686389179908291155	tic_tac_toe	9a3fa25b2f7eb54
-0	100	1701259073859760802	build.ninja	aa32b3a8f90adf3f
-2	535	1701258995628171357	CMakeFiles/tic_tac_toe.dir/Game.cpp.o	222b5c48f85bace5
-0	524	1701258995617821763	CMakeFiles/tic_tac_toe.dir/main.cpp.o	708d8786916f166c
 1	512	1701258995605045879	CMakeFiles/tic_tac_toe.dir/Texture.cpp.o	5f11b42747c5ad62
+0	524	1701258995617821763	CMakeFiles/tic_tac_toe.dir/main.cpp.o	708d8786916f166c
+2	535	1701258995628171357	CMakeFiles/tic_tac_toe.dir/Game.cpp.o	222b5c48f85bace5
+0	100	1701260944397656075	build.ninja	aa32b3a8f90adf3f
+283	314	1686389179908291155	tic_tac_toe	9a3fa25b2f7eb54
+0	4	0	clean	3c8e6cc385ee00ba
+2	515	1701258995607121931	CMakeFiles/tic_tac_toe.dir/Board.cpp.o	e76b228621c95f4
+2	515	1701258995607182345	CMakeFiles/tic_tac_toe.dir/Piece.cpp.o	a9901abea222b332
+0	50	1701260944397656075	build.ninja	aa32b3a8f90adf3f
+0	648	1701260945045576788	CMakeFiles/tic_tac_toe.dir/Texture.cpp.o	316a921969044f5
+0	649	1701260945045912945	CMakeFiles/tic_tac_toe.dir/main.cpp.o	a67280dc5415de32
+0	649	1701260945045571664	CMakeFiles/tic_tac_toe.dir/Board.cpp.o	3fa3cfcc8ec00fcd
+1	650	1701260945045570497	CMakeFiles/tic_tac_toe.dir/Piece.cpp.o	ed23bdbe713b2134
+0	651	1701260945054112074	CMakeFiles/tic_tac_toe.dir/Game.cpp.o	bf0d5ce58090f7f4
+651	684	1701260945088789324	tic_tac_toe	97045e49a7fc471

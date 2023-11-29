@@ -52,35 +52,35 @@ build cmake_object_order_depends_target_tic_tac_toe: phony || CMakeFiles/tic_tac
 build CMakeFiles/tic_tac_toe.dir/main.cpp.o: CXX_COMPILER__tic_tac_toe_unscanned_Debug /Users/mba/myCode/tic-tac-toe/main.cpp || cmake_object_order_depends_target_tic_tac_toe
   DEP_FILE = CMakeFiles/tic_tac_toe.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  INCLUDES = -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
   OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
 
 build CMakeFiles/tic_tac_toe.dir/Texture.cpp.o: CXX_COMPILER__tic_tac_toe_unscanned_Debug /Users/mba/myCode/tic-tac-toe/Texture.cpp || cmake_object_order_depends_target_tic_tac_toe
   DEP_FILE = CMakeFiles/tic_tac_toe.dir/Texture.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  INCLUDES = -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
   OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
 
 build CMakeFiles/tic_tac_toe.dir/Board.cpp.o: CXX_COMPILER__tic_tac_toe_unscanned_Debug /Users/mba/myCode/tic-tac-toe/Board.cpp || cmake_object_order_depends_target_tic_tac_toe
   DEP_FILE = CMakeFiles/tic_tac_toe.dir/Board.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  INCLUDES = -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
   OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
 
 build CMakeFiles/tic_tac_toe.dir/Game.cpp.o: CXX_COMPILER__tic_tac_toe_unscanned_Debug /Users/mba/myCode/tic-tac-toe/Game.cpp || cmake_object_order_depends_target_tic_tac_toe
   DEP_FILE = CMakeFiles/tic_tac_toe.dir/Game.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  INCLUDES = -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
   OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
 
 build CMakeFiles/tic_tac_toe.dir/Piece.cpp.o: CXX_COMPILER__tic_tac_toe_unscanned_Debug /Users/mba/myCode/tic-tac-toe/Piece.cpp || cmake_object_order_depends_target_tic_tac_toe
   DEP_FILE = CMakeFiles/tic_tac_toe.dir/Piece.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  INCLUDES = -isystem /opt/homebrew/include
   OBJECT_DIR = CMakeFiles/tic_tac_toe.dir
   OBJECT_FILE_DIR = CMakeFiles/tic_tac_toe.dir
 
